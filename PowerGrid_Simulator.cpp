@@ -784,13 +784,12 @@ public:
             i < (int)edges.size();
             i++
         ) {
-
             if (
-                edges[i].failed ||
-                edges[i].backup
-            ) {
-                candidates.push_back(i);
-            }
+            edges[i].backup &&
+            !edges[i].failed
+        ) {
+            candidates.push_back(i);
+        }
         }
 
         sort(
