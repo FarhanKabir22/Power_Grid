@@ -293,9 +293,9 @@ Power_Grid/
 
 ## 🎥 Demonstration
 
-A recorded demonstration of the system will be available on YouTube.
+A recorded demonstration of the Intelligent Power Grid Failure Recovery and Load Restoration System is available on YouTube.
 
-**YouTube:** `https://youtu.be/3e7COnLcXTs?si=7VGkX0db1GO28P8N`
+[Watch the project demonstration on YouTube](https://youtu.be/3e7COnLcXTs)
 
 ---
 
