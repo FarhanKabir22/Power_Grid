@@ -295,7 +295,7 @@ Power_Grid/
 
 A recorded demonstration of the system will be available on YouTube.
 
-**YouTube:** `Add demonstration video link here`
+**YouTube:** `https://youtu.be/3e7COnLcXTs?si=7VGkX0db1GO28P8N`
 
 ---
 
