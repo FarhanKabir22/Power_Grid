@@ -84,7 +84,7 @@ DSU uses:
 
 ---
 
-### 3. Dinic's Maximum Flow — Capacity Analysis
+### 3. Maximum Flow — Capacity Analysis
 
 Restoring connectivity does not necessarily mean that every consumer can receive its required power.
 
@@ -108,7 +108,7 @@ Selected Load Centers
 Super Sink
 ```
 
-Dinic's Maximum Flow algorithm determines whether the available network capacity can fully supply the selected loads.
+Maximum Flow algorithm determines whether the available network capacity can fully supply the selected loads.
 
 ---
 
@@ -189,7 +189,7 @@ Example menu:
  5. Repair / Activate Line
  6. BFS Connectivity Analysis
  7. Kruskal + DSU Restoration
- 8. Dinic Max-Flow + Greedy Restoration
+ 8. Maximum Flow + Greedy Restoration
  9. Run Complete Simulation
 10. View Final Report
 11. Change Plant Capacity
@@ -229,7 +229,7 @@ SHED
 - **Language:** C++
 - **Standard Library:** STL
 - **Data Structures:** Graph, Queue, Vector, DSU
-- **Algorithms:** BFS, Kruskal, Dinic Maximum Flow, Greedy
+- **Algorithms:** BFS, Kruskal, Maximum Flow, Greedy
 - **Interface:** Command-line / Console
 
 ---
@@ -269,7 +269,7 @@ A typical demonstration can be performed as follows:
         ↓
 7. Run Kruskal + DSU Restoration
         ↓
-8. Run Dinic Max-Flow + Greedy Restoration
+8. Run Max-Flow + Greedy Restoration
         ↓
 10. View Final Report
 ```
@@ -315,7 +315,7 @@ Add the names and IDs of the three team members here.
 
 The Intelligent Power Grid Failure Recovery and Load Restoration System demonstrates how multiple graph and optimization algorithms can work together to solve a realistic infrastructure recovery problem.
 
-**BFS** detects connectivity problems, **Kruskal with DSU** restores disconnected regions using available backup lines, **Dinic's Maximum Flow** evaluates transmission capacity, and a **Greedy strategy** prioritizes critical loads when resources are limited.
+**BFS** detects connectivity problems, **Kruskal with DSU** restores disconnected regions using available backup lines, **Maximum Flow** evaluates transmission capacity, and a **Greedy strategy** prioritizes critical loads when resources are limited.
 
 The result is an interactive simulation of:
 
