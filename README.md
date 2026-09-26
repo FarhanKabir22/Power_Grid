@@ -42,7 +42,7 @@ BFS Connectivity Analysis
 Kruskal + DSU Restoration
      │
      ▼
-Dinic Maximum Flow
+Maximum Flow
      │
      ▼
 Greedy Priority Restoration
@@ -108,7 +108,7 @@ Selected Load Centers
 Super Sink
 ```
 
-Maximum Flow algorithm determines whether the available network capacity can fully supply the selected loads.
+A Maximum Flow algorithm determines whether the available network capacity can fully supply the selected loads.
 
 ---
 
@@ -163,7 +163,7 @@ The interactive simulator allows the user to:
 - Repair or activate a transmission line
 - Run BFS connectivity analysis
 - Run Kruskal + DSU restoration
-- Run Dinic Maximum Flow with Greedy restoration
+- Run Maximum Flow with Greedy restoration
 - Run the complete recovery simulation
 - View the final restoration report
 - Change power plant generation capacity
@@ -269,7 +269,7 @@ A typical demonstration can be performed as follows:
         ↓
 7. Run Kruskal + DSU Restoration
         ↓
-8. Run Max-Flow + Greedy Restoration
+8. Run Maximum Flow + Greedy Restoration
         ↓
 10. View Final Report
 ```
